@@ -10,4 +10,4 @@ In deze Gifje kun je zien dat je met  ItemTemplates spullen kunt maken. Een item
 Met een druk op de knop (SpaceBar) kun je een echt item maken en je kunt zien wat het doet in de console.
 Zo is het makkelijk om nieuwe spullen te maken en te gebruiken in het spel.
 
-[(Assets/Scripts/03-Data-Structers)] 
+[Data Structuren scripts](https://github.com/ilias195/Leerjaar2-United2-PROG/tree/main/Assets/Scripts/03-Data-Structers)
