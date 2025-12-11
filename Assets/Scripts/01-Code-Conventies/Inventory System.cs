@@ -9,7 +9,7 @@ public class InventorySystem : MonoBehaviour
 
     private void Start()
     {
-        itemsInWorld.Add(new MediPack());
+     //  itemsInWorld.Add(new MediPack());
 
       
     }

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MediPack : Item
+public class MediPack : ItemLes1
 {
     private void Start()
     {

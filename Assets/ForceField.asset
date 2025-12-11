@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2382b2a567406294bb7611451654b52b, type: 3}
+  m_Name: ForceField
+  m_EditorClassIdentifier: 
+  itemName: ForceField
+  itemType: 1
+  stats:
+    damage: 0
+    defense: 500
+    weight: 300
+  basePrice: 250
+  icon: {fileID: 0}
