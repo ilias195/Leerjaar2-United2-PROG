@@ -4,7 +4,7 @@ public class HealthPickUp : Collectable
 {
     private void Start()
     {
-        pickUpName =" health";
+        pickUpName =" Health";
         
 
     }

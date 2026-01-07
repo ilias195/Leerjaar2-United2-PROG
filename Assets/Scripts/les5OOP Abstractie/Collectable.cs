@@ -4,7 +4,7 @@ using UnityEngine;
 public abstract class Collectable : MonoBehaviour
 {
     
-    protected int score;
+   
     protected string pickUpName;
 
     public static event Action<Collectable> OnCollected;
@@ -23,7 +23,5 @@ public abstract class Collectable : MonoBehaviour
        
         Destroy(gameObject);
     }
-
-
 
 }
