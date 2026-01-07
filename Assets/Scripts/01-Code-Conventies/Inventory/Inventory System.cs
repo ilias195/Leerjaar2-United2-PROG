@@ -4,12 +4,16 @@ using System.Collections.Generic;
 
 public class InventorySystem : MonoBehaviour
 {
-    [SerializeField] private List<Item> _inventory = new List<Item>();
-    [SerializeField] private List<Item> _itemsInWorld = new List<Item>();
+    [SerializeField] private List<ItemLes1> _inventory = new List<ItemLes1>();
+    [SerializeField] private List<ItemLes1> _itemsInWorld = new List<ItemLes1>();
+
 
     private void Start()
     {
-        //  itemsInWorld.Add(new MediPack());
+        Debug.Log("InventorySystem started");
+        _itemsInWorld.Add(new MediPack());
+        _itemsInWorld.Add(new GunItem());
+        _itemsInWorld.Add(new Keycard());
 
 
     }
@@ -34,7 +38,7 @@ public class InventorySystem : MonoBehaviour
     {
         bool itemFound = false;
 
-        foreach (Item item in _itemsInWorld)
+        foreach (ItemLes1 item in _itemsInWorld)
         {
             if (item is MediPack)
             {
@@ -57,7 +61,7 @@ public class InventorySystem : MonoBehaviour
     {
         bool itemFound = false;
 
-        foreach (Item item in _itemsInWorld)
+        foreach (ItemLes1 item in _itemsInWorld)
         {
             if (item is GunItem)
             {
@@ -80,7 +84,7 @@ public class InventorySystem : MonoBehaviour
     {
         bool itemFound = false;
 
-        foreach (Item item in _itemsInWorld)
+        foreach (ItemLes1 item in _itemsInWorld)
         {
             if (item is Keycard)
             {
