@@ -22,6 +22,7 @@ Ten slot heb ik ook gebruikt gemaakt van  **naamgevingsconventies**,zodat je sne
 Hierdoor houd je een overzicht.
 
 [Bekijk hier mijn codes voor mijn Inventory](https://github.com/ilias195/Leerjaar2-United2-PROG/tree/main/Assets/Scripts/01-Code-Conventies/Inventory)
+
 [Bekijk hier mijn codes voor mijn Items](https://github.com/ilias195/Leerjaar2-United2-PROG/tree/main/Assets/Scripts/01-Code-Conventies/Items)
 
 
