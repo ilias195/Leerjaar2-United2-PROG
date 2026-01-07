@@ -1,4 +1,29 @@
-## Les 1 
+## Les 1 CodeConventies
+![les1CodeConventies](https://github.com/user-attachments/assets/4e4f835d-bf56-4dc3-908e-c39accec93a6)
+
+in deze opdracht hebben we **InventorySystem** gemaakt in Unity. Controls zijn:
+- Keycode(M) = MediPacks
+- Keycode(G) = Guns
+- Keycode (K) - Keycode
+
+### hoe heb ik het aangepakt? 
+ik heb gewerkt met **Abstracte** code wat we in Opdracht 5 gaan behandelen.
+hierdoor kan mijn verschillende codes aangeven dat ze een naamgeving bijvoorbeeld moet hebben zodat de code over-
+zichtelijk blijft en dat het niet rommelig. Hierdoor kan ik ook snel mijn fout zien wat mijn code werkt dan niet.
+
+Vervolgens heb ik ook gebruikt gemaakt wat ik geleerd heb bij Opdracht 7. ik heb gebruik gemaakt van een **break**. Dat
+houd in dat hij langs de statements gaat en als de Statement is geweest stopt die. en gaat die naar de volgende. Hierdoor
+voorkom ik dat MediaPacks twee keer bijvoorbeeld wordt gepakt, want anders komt ie niet bij de Keycode of Guns aan.
+
+Ten slot heb ik ook gebruikt gemaakt van  **naamgevingsconventies**,zodat je snel kan zien wat het is. Bijvoorbeeld:
+-Private 
+-Functie
+-Class
+Hierdoor houd je een overzicht.
+
+[Bekijk hier mijn codes voor mijn Inventory](https://github.com/ilias195/Leerjaar2-United2-PROG/tree/main/Assets/Scripts/01-Code-Conventies/Inventory)
+
+[Bekijk hier mijn codes voor mijn Items](https://github.com/ilias195/Leerjaar2-United2-PROG/tree/main/Assets/Scripts/01-Code-Conventies/Items)
 
 
 ## les 2
