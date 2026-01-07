@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public abstract class Collectable : MonoBehaviour
@@ -5,22 +6,22 @@ public abstract class Collectable : MonoBehaviour
     
     protected int score;
     protected string pickUpName;
+
+    public static event Action<Collectable> OnCollected;
     public abstract void Collect();
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (!other.CompareTag("Player")) return;
+
+        Collect();
+
+        if (OnCollected != null)
         {
-            Collect();
-        }
-    }
+            OnCollected.Invoke(this);
+        };
 
-   
-    protected void Die()
-    {
-        Debug.Log( "score afname" + score);
+       
         Destroy(gameObject);
-        Debug.Log("die");
-
     }
 
 
