@@ -1,14 +1,6 @@
 using UnityEngine;
 
-public class ItemLes1 : MonoBehaviour
+public abstract class ItemLes1
 {
-    protected string type;
-
-    protected void GetType()
-    {
-        Debug.Log("Item type: " + type);
-    }
-   
-
-    
+    public abstract string ItemName { get; }
 }

@@ -1,11 +1,7 @@
 using UnityEngine;
 
-public class MediPack : ItemLes1
-{
-    private void Start()
+
+    public class MediPack : ItemLes1
     {
-       
-        type = "Medipack";
-        GetType();
+        public override string ItemName => "MediPack";
     }
-}

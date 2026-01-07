@@ -1,5 +1,5 @@
 using UnityEngine;
-
+#if false
 public class EarlyReturn : MonoBehaviour
 {
     public bool IsPlayerReadyToAttack(Player player)
@@ -41,3 +41,4 @@ public class EarlyReturn : MonoBehaviour
     
 }
 }
+#endif
