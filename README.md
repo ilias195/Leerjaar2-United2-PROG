@@ -15,7 +15,7 @@ Zo is het makkelijk om nieuwe spullen te maken en te gebruiken in het spel.
 
 
 ## les 7 Early Returns
-Dit script laat ik zien hoe je "early returns" gebruikt om complexe "if statement-logica"leesbaar te houden.
+Dit script laat ik zien hoe je "early returns" gebruikt om ingewikkelde "if statement-logica"leesbaar te houden.
 
 ```csharp
 using UnityEngine;
