@@ -55,11 +55,11 @@ in deze opdracht heb ik een **CollectibleSystem** gemaakt. je kan een Coin opakk
  Als laatst heb ik functies aangemaakt van elke Script met als vraag komt er scoren bij, komt er Health bij..? of gaat
  er Damage vanaf?
 
- [Bekijk hier mijn Scripts voor mijn](https://github.com/ilias195/Leerjaar2-United2-PROG/tree/main/Assets/Scripts/les5OOP%20Abstractie/Player)
+ [Bekijk hier mijn Scripts voor mijn Player](https://github.com/ilias195/Leerjaar2-United2-PROG/tree/main/Assets/Scripts/les5OOP%20Abstractie/Player)
 
  [Bekijk hier mijn Scripts voor Items](https://github.com/ilias195/Leerjaar2-United2-PROG/tree/main/Assets/Scripts/les5OOP%20Abstractie/Items)
 
- [Bekijk hier mijn Scripts voor mijn](https://github.com/ilias195/Leerjaar2-United2-PROG/tree/main/Assets/Scripts/les5OOP%20Abstractie/Mangers)
+ [Bekijk hier mijn Scripts voor mijn Managers](https://github.com/ilias195/Leerjaar2-United2-PROG/tree/main/Assets/Scripts/les5OOP%20Abstractie/Mangers)
  
 
 ## les 7 Early Returns
