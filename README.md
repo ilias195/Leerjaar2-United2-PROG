@@ -39,6 +39,7 @@ Zo is het makkelijk om nieuwe spullen te maken en te gebruiken in het spel.
 
 ## Les 5 Abstractie 
 ![les5 abstractie(10MB)](https://github.com/user-attachments/assets/2b92a3c7-4d66-40f0-af44-2a80fd412ce2)
+
 in deze opdracht heb ik een **CollectibleSystem** gemaakt. je kan een Coin opakken die een Score bijhoud, 
  HealthPickup die Health geeft en tot slot een Damage-Trap die Health eraf houdt. De Controls voor de player is (WASD)
 
