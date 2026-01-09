@@ -37,7 +37,30 @@ Zo is het makkelijk om nieuwe spullen te maken en te gebruiken in het spel.
 
 [bekijk mijn scripts](https://github.com/ilias195/Leerjaar2-United2-PROG/tree/main/Assets/Scripts/03-Data-Structers)
 
+## Les 5 Abstractie 
+![les5 abstractie(10MB)](https://github.com/user-attachments/assets/2b92a3c7-4d66-40f0-af44-2a80fd412ce2)\
 
+in deze opdracht heb ik een **CollectibleSystem** gemaakt. je kan een Coin opakken die een Score bijhoud, 
+ HealthPickup die Health geeft en tot slot een Damage-Trap die Health eraf houdt. De Controls voor de player is (WASD)
+
+ ### Hoe heb ik het Aangepakt?
+ ik heb gewerkt met Abstracte code. ik had één Script gemaakt die basis script zodat andere scripts kunnen over erven. 
+
+ Vervolgens heb ik de Scripts Coin, Health, Damage aangemaakt en laten overerven. en elke script geeft ook een bericht je mee
+ van ik ben opgepakt.
+
+ Ten slot heb ik een ander Script aangemaakt PlayerStats. Die houd bij wat er opgepakt is en of dat er damage is gedaan.
+ Om ervoor te zorgen dat je dat kan doen moet je Referentie maken tussen de scripts. En ik heb dat gedaan met een Action Event.
+ ik heb een Action event gezet in Damage,Coin en Health. zodat ze ik referntie kan maken naar mijn PlayerStats script.
+ Als laatst heb ik functies aangemaakt van elke Script met als vraag komt er scoren bij, komt er Health bij..? of gaat
+ er Damage vanaf?
+
+ [Bekijk hier mijn Scripts voor mijn](https://github.com/ilias195/Leerjaar2-United2-PROG/tree/main/Assets/Scripts/les5OOP%20Abstractie/Player)
+
+ [Bekijk hier mijn Scripts voor Items](https://github.com/ilias195/Leerjaar2-United2-PROG/tree/main/Assets/Scripts/les5OOP%20Abstractie/Items)
+
+ [Bekijk hier mijn Scripts voor mijn](https://github.com/ilias195/Leerjaar2-United2-PROG/tree/main/Assets/Scripts/les5OOP%20Abstractie/Mangers)
+ 
 
 ## les 7 Early Returns
 Dit script laat ik zien hoe je "early returns" gebruikt om ingewikkelde "if statement-logica"leesbaar te houden.
@@ -85,3 +108,10 @@ public class EarlyReturn : MonoBehaviour
 }
 ```
 [Klik hier om de script te zien](https://github.com/ilias195/Leerjaar2-United2-PROG/tree/main/Assets/Scripts/les7EarlyReturns/Broken)
+
+
+
+
+
+
+[Hier is de link naar mijn periode 1 opdracht](https://github.com/ilias195/Leerjaar2-United2-PROG?tab=readme-ov-file#les-1-codeconventies)
