@@ -51,7 +51,7 @@ Daarnaast stuurt elk item via een delegate (event) het aantal punten door
 naar de ScoreManager. En de Scoremanager luistert naar dat event en telt de score op
  in de UI en die luistert ook. Hierdoor laat kan je score in zien in de UI.
 
- [Bekijk hier mijn Script](https://github.com/ilias195/Leerjaar2-United2-PROG/tree/main/Assets/Scripts/les4Delegets)
+ [Bekijk hier mijn Scripts](https://github.com/ilias195/Leerjaar2-United2-PROG/tree/main/Assets/Scripts/les4Delegets)
 
 ## Les 5 Abstractie 
 ![les5 abstractie(10MB)](https://github.com/user-attachments/assets/2b92a3c7-4d66-40f0-af44-2a80fd412ce2)
