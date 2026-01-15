@@ -37,6 +37,22 @@ Zo is het makkelijk om nieuwe spullen te maken en te gebruiken in het spel.
 
 [bekijk mijn scripts](https://github.com/ilias195/Leerjaar2-United2-PROG/tree/main/Assets/Scripts/03-Data-Structers)
 
+## les 4 Delegates
+![les4-Delegets](https://github.com/user-attachments/assets/508ecde1-1dee-48b3-970c-4847d73d09c3)
+
+in deze gifje kun je zien dat ik een Collectible item heb gemaakt. De item is een simple coin die word bijgehouden in de UI en een 
+ScoreManager. De player kun je besturen met (WASD)
+
+### Hoe heb ik het aangepakt ?
+
+Om te beginnen heb ik voor de player een simple movement script gemaakt.
+Vervolgens heb ik Collectible items gemaakt met een trigger collider.
+Daarnaast stuurt elk item via een delegate (event) het aantal punten door
+naar de ScoreManager. En de Scoremanager luistert naar dat event en telt de score op
+ in de UI en die luistert ook. Hierdoor laat kan je score in zien in de UI.
+
+ [Bekijk hier mijn Script](https://github.com/ilias195/Leerjaar2-United2-PROG/tree/main/Assets/Scripts/les4Delegets)
+
 ## Les 5 Abstractie 
 ![les5 abstractie(10MB)](https://github.com/user-attachments/assets/2b92a3c7-4d66-40f0-af44-2a80fd412ce2)
 
