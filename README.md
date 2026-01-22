@@ -171,6 +171,14 @@ in deze opdracht heb ik een **CollectibleSystem** gemaakt. je kan een Coin opakk
 
  [Bekijk hier mijn Scripts voor mijn Managers](https://github.com/ilias195/Leerjaar2-United2-PROG/tree/main/Assets/Scripts/les5OOP%20Abstractie/Mangers)
  
+## les 6 Polymorfisme
+![Polymorfisme](https://github.com/user-attachments/assets/d6334161-eda2-4ab9-90e2-e17f400bec8e)
+
+In dit gifje heb ik een battlesysteem gemaakt met een Enemy-basisklasse en meerdere enemies die hiervan erven.
+Ik heb een nieuw enemy-type Phoenix toegevoegd dat zichzelf healt bij een aanval en altijd 30 damage ontvangt.
+Door overerving en polymorfisme kan de BattleManager alle enemies op dezelfde manier aansturen.
+
+[bekijk hier mijn Polymorfisme Scripts](https://github.com/ilias195/Leerjaar2-United2-PROG/tree/main/Assets/Scripts/les6-Polymorfisme)
 
 ## les 7 Early Returns
 Dit script laat ik zien hoe je "early returns" gebruikt om ingewikkelde "if statement-logica"leesbaar te houden.
