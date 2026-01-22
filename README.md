@@ -1,3 +1,5 @@
+[Link naar mijn Periode 1 PROG README](https://github.com/ilias195/Leerjaar2-PROG-P1?tab=readme-ov-file#leerjaar2-prog-p1)
+
 ## Les 1 CodeConventies
 ![les1CodeConventies](https://github.com/user-attachments/assets/4e4f835d-bf56-4dc3-908e-c39accec93a6)
 
@@ -26,7 +28,99 @@ Hierdoor houd je een overzicht.
 [Bekijk hier mijn codes voor mijn Items](https://github.com/ilias195/Leerjaar2-United2-PROG/tree/main/Assets/Scripts/01-Code-Conventies/Items)
 
 
-## les 2
+## les 2 Class-Diagram Farmer (Unitled Goose)
+```mermaid
+---
+Title: Class Diagram Unitled Goose (Farmer TD)
+---
+
+classDiagram 
+
+%% ENUM
+class FarmerTask {
+    <<enum>>
+    None
+    Digging
+    Rake
+}
+
+
+%% ABSTRACTE CLASS
+
+class FarmerTaskBase {
+    + TaskType : FarmerTask
+}
+
+
+%% Tasks
+
+class DiggingTask {
+    + TaskType : FarmerTask
+}
+
+
+class RakeTask {
+    + TaskType : FarmerTask
+}
+
+%% WAYPOINT System
+
+class WayPoints {
+    - points : List~Transform~
+    + Points : List~Transform~
+}
+
+class WaypointTask {
+    + taskType : FarmerTask
+}
+
+
+%% MOVEMENT
+
+class Movement {
+    - wayPoints : WayPoints
+    - _speed : float
+    - target : Transform
+    - wavePointIndex : int
+    - currentTask : FarmerTaskBase
+    - isWorking : bool
+    - farmerAnimation : FarmerAnimation
+
+    + Start()
+    + Update()
+    + StartTaskWayPoint()
+    + FinishTask()
+    + GetNextWayPoint()
+}
+
+
+%% ANIMATION 
+
+class FarmerAnimation {
+    + SetMoving(bool)
+    + PlayTaskAnimation(FarmerTask)
+    + StopTaskAnimation()
+}
+
+
+%% RELATIONS
+
+%%/Dependancy 
+Movement ..> WayPoints
+Movement ..> WaypointTask
+Movement ..> FarmerTaskBase
+Movement ..> DiggingTask
+Movement ..> RakeTask
+Movement ..> FarmerAnimation
+Movement ..> Transform
+
+```
+in dit class diagram kun je  zien hoe het movement-systeem, waypoint-task en animaties van de farmer samenwerken. Ik heb een 
+abstracte code gebruikt wat ik ga behandelen in opdracht 5, en omdat ik dus abstract heb gewerkt, kan ik mijn code makkelijk uitbreiden.
+Daarnaast bepalen het taaktype via een enum waypoints en de Movement regelt wanneer iets gedaan moet worden en beheert het. Ten slot de animatie 
+voert niks uit maar laat alleen zien wat er gebeurt.
+
+
 
 ## les 3 Data Structures
 ![InventorySystem](https://github.com/user-attachments/assets/b57b531b-bac0-4959-8680-6b84cb2c6278)
@@ -36,6 +130,22 @@ Met een druk op de knop (SpaceBar) kun je een echt item maken en je kunt zien wa
 Zo is het makkelijk om nieuwe spullen te maken en te gebruiken in het spel.
 
 [bekijk mijn scripts](https://github.com/ilias195/Leerjaar2-United2-PROG/tree/main/Assets/Scripts/03-Data-Structers)
+
+## les 4 Delegates
+![les4-Delegets](https://github.com/user-attachments/assets/508ecde1-1dee-48b3-970c-4847d73d09c3)
+
+in deze gifje kun je zien dat ik een Collectible item heb gemaakt. De item is een simple coin die word bijgehouden in de UI en een 
+ScoreManager. De player kun je besturen met (WASD)
+
+### Hoe heb ik het aangepakt ?
+
+Om te beginnen heb ik voor de player een simple movement script gemaakt.
+Vervolgens heb ik Collectible items gemaakt met een trigger collider.
+Daarnaast stuurt elk item via een delegate (event) het aantal punten door
+naar de ScoreManager. En de Scoremanager luistert naar dat event en telt de score op
+ in de UI en die luistert ook. Hierdoor laat kan je score in zien in de UI.
+
+ [Bekijk hier mijn Scripts](https://github.com/ilias195/Leerjaar2-United2-PROG/tree/main/Assets/Scripts/les4Delegets)
 
 ## Les 5 Abstractie 
 ![les5 abstractie(10MB)](https://github.com/user-attachments/assets/2b92a3c7-4d66-40f0-af44-2a80fd412ce2)
